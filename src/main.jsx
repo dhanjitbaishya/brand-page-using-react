@@ -1,13 +1,10 @@
-import "./App.css";
-import HeroSection from "./components/Hero";
-import Navigation from "./components/Navigation";
-const App = () => {
-  return (<div>
-    <Navigation />
-    <HeroSection />
-  </div>
-  );
-};
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
 
-export default App;
-
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

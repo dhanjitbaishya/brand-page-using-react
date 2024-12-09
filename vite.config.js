@@ -3,5 +3,4 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/brand-page-using-react/', // Base path for GitHub Pages
 });
